@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+    <title>Elysian Fields Homestead</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="brand">
+            <img src="Images/ImageOne.jpg" alt="Elysian Fields logo" class="logo">
+            <div class="brand-text">
+                <span class="brand-name">Elysian Fields</span>
+                <span class="brand-tagline">Homestead · est. 2018</span>
+            </div>
+        </div>
+        <div class="links">
+            <a href="#soap">Soap</a>
+            <a href="#dogs">Dogs</a>
+            <a href="#produce">Produce</a>
+            <a href="#about">About</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow">— Small batch · Hand crafted · Family run —</p>
+            <h1 class="hero-title">A quieter way<br><em>of living.</em></h1>
+            <p class="hero-sub">Honest goods from our family's land in the Georgia hills.</p>
+        </div>
+
+        <div class="carousel-background">
+            <div class="carousel">
+                <button class="carousel-btn prev" aria-label="Previous slide">&#10094;</button>
+
+                <div class="slides">
+                    <div class="slide active">
+                        <img src="Images/ImageOne.jpg" alt="Slide 1">
+                        <div class="caption">
+                            <span class="caption-tag">No. 01</span>
+                            <h3>Our Handmade Soaps</h3>
+                            <p>Crafted from goat milk and lavender.</p>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="Images/ImageTwo.jpg" alt="Slide 2">
+                        <div class="caption">
+                            <span class="caption-tag">No. 02</span>
+                            <h3>Livestock Guardians</h3>
+                            <p>Meet the dogs that protect our flock.</p>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="Images/ImageThree.jpg" alt="Slide 3">
+                        <div class="caption">
+                            <span class="caption-tag">No. 03</span>
+                            <h3>Happy Hens</h3>
+                            <p>Free-range chickens, fresh eggs daily.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-btn next" aria-label="Next slide">&#10095;</button>
+            </div>
+        </div>
+    </header>
+
+    <script src="carousel.js"></script>
+
+    <div class="sections-wrapper">
+
+        <section class="section soap" id="soap">
+            <img src="Images/ImageOne.jpg" alt="Soap Picture" class="section-img">
+            <div class="divider"></div>
+            <div class="content">
+                <span class="section-number">01 — Apothecary</span>
+                <h2>Our Handmade Soaps</h2>
+                <p>Crafted from goat milk and lavender, made in small batches with herbs grown right here on the farm.</p>
+                <a href="#" class="section-link">Shop Soaps <span>→</span></a>
+            </div>
+        </section>
+
+        <section class="section dogs" id="dogs">
+            <img src="Images/ImageOne.jpg" alt="Dogs Picture" class="section-img">
+            <div class="divider"></div>
+            <div class="content">
+                <span class="section-number">02 — The Pack</span>
+                <h2>Livestock Guardians</h2>
+                <p>Meet the gentle giants that protect our flock day and night through every season.</p>
+                <a href="#" class="section-link">Meet the Dogs <span>→</span></a>
+            </div>
+        </section>
+
+        <section class="section produce" id="produce">
+            <img src="Images/ImageOne.jpg" alt="Produce Picture" class="section-img">
+            <div class="divider"></div>
+            <div class="content">
+                <span class="section-number">03 — The Harvest</span>
+                <h2>Fresh Produce</h2>
+                <p>Farm-fresh eggs and seasonal produce, straight from our homestead to your table.</p>
+                <a href="#" class="section-link">Browse Produce <span>→</span></a>
+            </div>
+        </section>
+
+    </div>
+
+    <section class="AboutMe" id="about">
+        <div class="farm">
+            <img src="Images/ImageOne.jpg" alt="picture of farm" class="FarmPicture">
+            <p>Our Farm — Spring, 2024</p>
+        </div>
+        <div class="description">
+            <span class="kicker">A note from the family</span>
+            <h1>About Our Farm</h1>
+            <div class="owner">
+                <img src="Images/ImageOne.jpg" alt="Picture of Amanda Brown" class="BrownPicture">
+                <p class="owner-name">Amanda Brown</p>
+                <p class="owner-title">Founder & Shepherd</p>
+            </div>
+            <p class="lede">We started Elysian Fields with a simple idea: that the best things come from patient hands and good land.</p>
+            <p>Our farm story goes here. Talk about how the homestead got started, what makes it special, and the values that guide your work. Generations of careful tending, a respect for the seasons, and a belief that quality is what's left when nothing has been rushed. This text will wrap around the photo to the right, giving the page that newspaper-style feel you wanted.</p>
+            <p>Every bar of soap, every basket of eggs, every loaf of bread carries a bit of this place with it. We're glad to share it with you.</p>
+            <p class="signature">— Amanda</p>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="footer-name">Elysian Fields Homestead</span>
+                <span class="footer-loc">Georgia · United States</span>
+            </div>
+            <div class="footer-links">
+                <a href="#soap">Soap</a>
+                <a href="#dogs">Dogs</a>
+                <a href="#produce">Produce</a>
+                <a href="#about">About</a>
+            </div>
+            <p class="footer-copy">© 2026 Elysian Fields Homestead. Tended with care.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
